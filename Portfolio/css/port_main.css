@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+@import "nav_port.css";
+
+@import "navlinestick";
+
+@media (max-width: 430px){
+	body {
+		background-color: #6767C3;
+	}
+	
+	.menu {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.header {
+		text-align: center;
+		width: 393px;
+		height: 120px;
+		flex-shrink: 0;
+		background: #3C3CA1;
+		font-family: "Abhaya Libre Medium";
+		position: sticky;
+	}
+	
+	/* header at the top of the page.*/
+	
+	.header2 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		flex-shrink: 0;
+		width: 50%;
+	}
+	
+	.table-center {
+		width: 85%; /* Or any specific width less than 100% */
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+	
+	.button {
+		width: 232px;
+		height: 43px;
+		padding-left: 50%;
+		flex-shrink: 0;
+		background: #030340;
+	}
+	/*ONLY FOR MOBILE */
+	
+	.button:hover {
+		background: #B2B2FF;
+	}
+	/*Changed colour when box is hovered over. */
+	
+	.img2 {
+		width: 392px;
+		height: 221px;
+		lex-shrink: 0;
+		aspect-ratio: 392/221;
+		padding: 1%
+	}
+	/* used for the background image which is used for the img under the text. this keeps it the same size.*/
+	
+	* {
+  		box-sizing: border-box;
+	}
+
+	.flex-container {
+  		display: flex;
+  		flex-wrap: wrap;
+  		font-size: 30px;
+  		text-align: center;
+	}
+	
+	/* used for div container, this helps the boxes stay aligned and centered in the page.*/
+
+	.flex-item-left {
+ 	 	background-color: #3C3CA1;
+  		padding: 10px;
+		padding-left: 10px;
+  		flex: 90%;
+		align-content: center;
+	}
+	/* flex left will push the box all the way to the left, making sure it stays on top if there is no room on the right.*/
+
+	.flex-item-right {
+  		background-color: #3C3CA1;
+  		padding: 15px;
+  		flex: 100%;
+	}
+	/* flex is used to keep the box to the right until it cannot fit on the screen anymore, which it will be moved down under one.*/
+	
+	.sizebox {
+		width: 40%;
+		height: 40%;
+		flex-shrink: 0;
+		background-color: aquamarine;
+	}
+	/* Size fo all boxes in mobile (not working)*/
+	
+	.sizebox1 {
+		width: 40%;
+		height: 40%;
+		flex-shrink: 0;
+		border-top: 304px;
+		border-bottom: 1523px;
+		border-left: 25.5px;
+		border-right: 28.5;
+		padding: 5%
+	}
+	
+	.sizebox2 {
+		width: 40%;
+		height: 40%;
+		flex-shrink: 0;
+		border-top: 728px;
+		border-bottom: 1099px;
+		border-left: 25.5px;
+		border-right: 28.5px;
+		padding: 5%;
+	}
+	
+	.sizebox3 {
+		width: 40%;
+		height: 40%;
+		flex-shrink: 0;
+		border-top: 1152px;
+		border-bottom: 675px;
+		border-left: 25.5px;
+		border-right: 28.5px;
+		padding: 5%;
+	}
+	
+	.sizebox4 {
+		width: 40%;
+		height: 40%;
+		flex-shrink: 0;
+		border-top: 1576px;
+		border-bottom: 251px;
+		border-left: 25.5px;
+		border-right: 28.5px;
+		padding: 5%;
+	}
+	
+	.centered {
+  		position: absolute;
+  		top: 35%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+}
+	/* centered keep the text above the image centered within the image. changing the % will change on where it will be. */
+	
+	.toph {
+		color: #FFF;
+		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		padding-top: 30%
+	}
+	/* toph is top header. top header is used on the text above the picture */
+	
+	
+	.ab {
+		width: 193px;
+		height: 193px;
+		flex-shrink: 0;
+		aspect-ratio: 1/1;
+	}
+	/* ab is About Me picture. this is used tp properly scale the image to the right size */
+	
+	.port {
+		width: 276px;
+		height: 155px;
+		flex-shrink: 0;
+		aspect-ratio: 276/155;
+	}
+	
+	/* Portfolio img*/
+	
+	.all {
+		width: 276px;
+		height: 155px;
+		flex-shrink: 0;
+		aspect-ratio: 276/155;
+	}
+	
+	.contactbtn{
+		text-align: center;
+		color: white;
+		width: 210px;
+		height: 43px;
+		flex-shrink: 0;
+		background: #B2B2FF;
+	}
+	/*light purple button*/
+	
+	nav.hidden {
+		display: none;
+	}
+	
+	.dropdown:hover .dropdown-content {display: block;}
+	
+	.logo {
+		width: 70px;
+		height: 68px;
+		flex-shrink: 0;
+	}
+	
+	.contact {
+		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		color: white;
+	}
+	
+	.footerpad{
+		padding-top: 10%;
+		padding-left: 26%;
+		padding-right: 26%;
+	}
+	
+
+}
+
+@media (min-width: 431px){
+	body {
+		background-color: #6767C3;
+	}
+	
+	.menu {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.header {
+		text-align: center;
+		width: 100%;
+		height: 133px;
+		flex-shrink: 0;
+		background: #3C3CA1;
+	}
+	.blocks {
+		width: 607px;
+		height: 686px;
+		flex-shrink: 0;
+		background: #3C3CA1;
+		flex: 100%;
+	}
+	.flex-container {
+  		display: flex;
+  		flex-wrap: wrap;
+  		font-size: 30px;
+  		text-align: center;
+	}
+	
+	.flex-item-right {
+	}
+	
+	.flex-item-right, .flex-item-left {
+    	flex: 50%;
+  	}
+	
+	.container {
+  		position: flex;
+  		text-align: center;
+  		color: white;
+	}
+	.centered {
+  		position: absolute;
+  		top: 65%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
+	
+	.img2 {
+		width: 1262px;
+		height: 710px;
+		flex-shrink: 0;
+		aspect-ratio: 631/355;
+		justify-content: center;
+  		align-items: center;
+	}
+	
+	/* used for the background image which is used for the img under the text. this keeps it the same size. Reach out to Glenn for this issue.*/
+	
+	.toph {
+		color: #FFF;
+		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+	.ab {
+		width: 345px;
+		height: 345px;
+		flex-shrink: 0;
+		aspect-ratio: 1/1;
+	}
+	/* ab is About Me picture. this is used tp properly scale the image to the right size */
+	
+	.port {
+		width: 345px;
+		height: 345px;
+		flex-shrink: 0;
+		aspect-ratio: 1/1;
+	}
+	/* Portfolio img*/
+	
+	.contactbtn{
+		text-align: center;
+		color: white;
+		width: 318px;
+		height: 64px;
+		flex-shrink: 0;
+		background: #B2B2FF;
+	}
+	
+	nav.hidden {
+		display: block;
+		font-family: "Abhaya Libre Medium";
+	}
+	
+	.logo {
+		width: 70px;
+		height: 68px;
+		flex-shrink: 0;
+	}
+	
+	.table-center {
+		width: 80%; /* Or any specific width less than 100% */
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+	
+	.button {
+		width: 332px;
+		height: 143px;
+		padding-left: 50%;
+		flex-shrink: 0;
+		background: #030340;
+	}
+	/*ONLY FOR MOBILE */
+	
+	.button:hover {
+		background: #B2B2FF;
+	}
+	
+	.contact {
+		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		color: white;
+	}
+	
+	.footerpad{
+		padding-top: 10%;
+		padding-left: 38%;
+		padding-right: 34%;
+	}
+	
+	table {
+		width: 80%;
+	}
+	
+}
+
+
