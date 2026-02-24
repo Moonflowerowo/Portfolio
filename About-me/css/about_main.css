@@ -222,6 +222,11 @@
 		padding-left: 26%;
 		padding-right: 26%;
 	}
+	.middle{
+		text-align: center;
+		font-size: 150%;
+		
+	}
 	
 
 }
@@ -365,6 +370,11 @@
 	
 	table {
 		width: 80%;
+	}
+	
+	.middle{
+		text-align: center;
+		font-size: 150%;
 	}
 	
 }
