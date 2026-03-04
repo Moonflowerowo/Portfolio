@@ -160,7 +160,8 @@
 		font-style: normal;
 		font-weight: 500;
 		line-height: normal;
-		padding-top: 30%
+		width:1920; 
+		height:1080;
 	}
 	/* toph is top header. top header is used on the text above the picture */
 	
