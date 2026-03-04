@@ -4,7 +4,7 @@
 
 @import "navlinestick";
 
-@media (max-width: 430px){
+@media (max-width: 730px){
 	body {
 		background-color: #6767C3;
 	}
@@ -231,7 +231,7 @@
 
 }
 
-@media (min-width: 431px){
+@media (min-width: 731px){
 	body {
 		background-color: #6767C3;
 	}
