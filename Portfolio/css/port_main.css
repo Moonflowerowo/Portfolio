@@ -4,7 +4,7 @@
 
 @import "navlinestick";
 
-@media (max-width: 730px){
+@media (max-width: 1320px){
 	body {
 		background-color: #6767C3;
 	}
@@ -160,7 +160,8 @@
 		font-style: normal;
 		font-weight: 500;
 		line-height: normal;
-		padding-top: 30%
+		width:1920; 
+		height:1080;
 	}
 	/* toph is top header. top header is used on the text above the picture */
 	
@@ -226,7 +227,7 @@
 
 }
 
-@media (min-width: 731px){
+@media (min-width: 1321px){
 	body {
 		background-color: #6767C3;
 	}
