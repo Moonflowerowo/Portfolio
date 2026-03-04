@@ -6,7 +6,7 @@
 
 @import "navlinestick";
 
-@media (max-width: 730px){
+@media (max-width: 1320px){
 	body {
 		background-color: #6767C3;
 	}
@@ -18,7 +18,7 @@
 	
 	.header {
 		text-align: center;
-		width: 393px;
+		width: 100%;
 		height: 120px;
 		flex-shrink: 0;
 		background: #3C3CA1;
@@ -43,8 +43,8 @@
 	}
 	
 	.button {
-		width: 232px;
-		height: 43px;
+		width: 100%;
+		height: 100%;
 		padding-left: 50%;
 		flex-shrink: 0;
 		background: #030340;
@@ -57,8 +57,8 @@
 	/*Changed colour when box is hovered over. */
 	
 	.img2 {
-		width: 392px;
-		height: 221px;
+		width: 100%;
+		height: 100%;
 		lex-shrink: 0;
 		aspect-ratio: 392/221;
 		padding: 1%
@@ -98,7 +98,6 @@
 		width: 40%;
 		height: 40%;
 		flex-shrink: 0;
-		background-color: aquamarine;
 	}
 	/* Size fo all boxes in mobile (not working)*/
 	
@@ -147,10 +146,10 @@
 	}
 	
 	.centered {
-  		position: absolute;
-  		top: 35%;
-  		left: 50%;
-  		transform: translate(-50%, -50%);
+    position: absolute;
+    top: 568px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 	/* centered keep the text above the image centered within the image. changing the % will change on where it will be. */
 	
@@ -158,11 +157,12 @@
 		color: #FFF;
 		text-align: center;
 		font-family: "Abhaya Libre Medium";
-		font-size: 20px;
+		font-size: 50px;
 		font-style: normal;
 		font-weight: 500;
 		line-height: normal;
-		padding-top: 30%
+		width:1920; 
+		height:1080;
 	}
 	/* toph is top header. top header is used on the text above the picture */
 	
@@ -228,7 +228,7 @@
 
 }
 
-@media (min-width: 731px){
+@media (min-width: 1321px){
 	body {
 		background-color: #6767C3;
 	}
@@ -260,7 +260,7 @@
 	}
 	
 	.flex-item-right {
-		background-color: dodgerblue;
+		
 	}
 	
 	.flex-item-right, .flex-item-left {
